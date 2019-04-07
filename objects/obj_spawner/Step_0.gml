@@ -1,7 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Enemy Spawner
 
-timer = timer-delta_time;
-if(timer <= 0.0) {
-	instance_create(irandom_range(-750,-500),irandom_range(750,500),obj_neg_comments);
+if !instance_exists(obj_neg_comments) {
+	repeat(wave) {
+		instance_create_layer(x,y, "Instances", obj_neg_comments);
+	}
 }
+wave+=1;

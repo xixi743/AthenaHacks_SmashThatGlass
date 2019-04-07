@@ -1,6 +1,3 @@
-/// @desc float for timer
+/// @description Initialize the spawner
 
-timer = 0.5;
-
-var x,y = irandom_range(5,5)
-x = 5;
+wave = 1;
