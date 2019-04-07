@@ -12,11 +12,8 @@ if (keyboard_check_pressed(vk_enter)) {
 			break;
 			
 		case rm_win:
-			room_goto(rm_start);
-			break;
-			
 		case rm_lose:
-			room_goto(rm_start);
+			game_restart();
 			break;
 	}
 }
@@ -24,10 +21,12 @@ if (keyboard_check_pressed(vk_enter)) {
 if(room ==rm_game) {
 	if (lives <= 0 and score <200) {
 		room_goto(rm_lose);
-		audio_play_sound(snd_gameover, 1, false);
+		audio_stop_sound(snd_background_jam);
+		audio_play_sound(snd_gameover, 3, false);
 	}
-	if (lives >=200 and score >=200) {
+	if (lives <=0 and score >=200) {
 		room_goto(rm_win);
-		audio_play_sound(snd_win, 1, false);
+		audio_stop_sound(snd_background_jam);
+		audio_play_sound(snd_win, 3, false);
 	}
 }

@@ -17,9 +17,9 @@ switch (room) {
 		break;
 		
 	case rm_win:
-		draw_text_color(room_width/2, 200, "Congrats! You Won!", c_white, c_white, c_white, c_white, 1);
-		draw_text_color(room_width/2, 300, "Your score: "+string(score), c_white, c_white, c_white, c_white, 1);
-		draw_text_color(room_width/2, 500, "Press ENTER to restart", c_white, c_white, c_white, c_white, 1);
+		draw_text_color(room_width/2, 400, "Congrats! You Won!", c_white, c_white, c_white, c_white, 1);
+		draw_text_color(room_width/2, 500, "Your score: "+string(score), c_white, c_white, c_white, c_white, 1);
+		draw_text_color(room_width/2, 600, "Press ENTER to restart", c_white, c_white, c_white, c_white, 1);
 		break;
 		
 	case rm_lose:

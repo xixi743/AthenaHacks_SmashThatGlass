@@ -36,10 +36,12 @@ if (keyboard_check_pressed(vk_space)) {
 		l_inst.image_angle = 0;
 		l_inst.direction = 0;
 		l_inst.speed = 20;
+		audio_play_sound(snd_throw, 1, false);
 	}
 	if (keyboard_check(vk_left)) {
 		var r_inst = instance_create_layer(x-175, y-350, "Instances", obj_heel);
 		r_inst.image_angle = 180;
 		r_inst.speed = -20;
+		audio_play_sound(snd_throw, 1, false);
 	}
 }
