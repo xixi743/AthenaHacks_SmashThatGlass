@@ -69,6 +69,41 @@
             "visible": true,
             "vspeed": 0,
             "vtiled": false,
+            "x": 420,
+            "y": 0
+        },
+        {
+            "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Backgrounds_1",
+            "id": "29929812-b935-425a-b2be-277623f8c9e8",
+            "animationFPS": 15,
+            "animationSpeedType": "0",
+            "colour": { "Value": 4294439104 },
+            "depth": 200,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "hspeed": 0,
+            "htiled": false,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRBackgroundLayer",
+            "mvc": "1.0",
+            "spriteId": "00000000-0000-0000-0000-000000000000",
+            "stretch": false,
+            "userdefined_animFPS": false,
+            "userdefined_depth": false,
+            "visible": true,
+            "vspeed": 0,
+            "vtiled": false,
             "x": 0,
             "y": 0
         }
@@ -87,12 +122,12 @@
     },
     "roomSettings":     {
         "id": "c21d334a-5e8e-4f9c-8611-6fbb682a63c7",
-        "Height": 500,
+        "Height": 1080,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 500
+        "Width": 1920
     },
     "mvc": "1.0",
     "views": [

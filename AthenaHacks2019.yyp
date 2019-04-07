@@ -47,6 +47,30 @@
             }
         },
         {
+            "Key": "211d8280-7dda-40cf-bf84-eda43b8cf855",
+            "Value": {
+                "id": "929c7009-06a6-4c83-bcda-112d2df329ce",
+                "resourcePath": "rooms\\rm_directions\\rm_directions.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "21537a27-c72e-45e0-a33c-badee1fbc257",
+            "Value": {
+                "id": "f46ed6dd-361b-4b95-a898-4281b97086a8",
+                "resourcePath": "sprites\\spr_solid\\spr_solid.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2c36b749-acfb-415a-9a6c-221a8b179d22",
+            "Value": {
+                "id": "f03f3e80-abc3-4272-9c91-a6d56522fec9",
+                "resourcePath": "objects\\obj_solid\\obj_solid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "31d0debb-56c7-44ff-95b3-c9714c4cd3cb",
             "Value": {
                 "id": "f6253f22-a48b-465f-8444-cc70b2524116",
@@ -95,6 +119,14 @@
             }
         },
         {
+            "Key": "6974cfec-a7da-44ce-9763-1ad17ae6d17f",
+            "Value": {
+                "id": "898466c3-5be5-4485-a9e6-8e8ce87d962e",
+                "resourcePath": "sprites\\spr_directions\\spr_directions.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "74ac4bce-b5e2-45a1-a4ad-ef96d64a1fff",
             "Value": {
                 "id": "ff24d363-5837-483b-b09e-477edc81bde7",
@@ -116,6 +148,14 @@
                 "id": "477434ba-59ba-4854-98ad-e92339750904",
                 "resourcePath": "fonts\\fnt_adigiana_toybox\\fnt_adigiana_toybox.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "987d9656-fa07-4d17-a88d-e30244438022",
+            "Value": {
+                "id": "f394b333-8a16-40b8-a44f-a919656f3ace",
+                "resourcePath": "sprites\\spr_girl\\spr_girl.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -143,19 +183,19 @@
             }
         },
         {
-            "Key": "c6edcded-065c-415c-962f-a91f49c5e30b",
-            "Value": {
-                "id": "a6a8cfa9-1948-4353-bc51-d8c7d2185fc2",
-                "resourcePath": "sprites\\spr_girl\\spr_girl.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "fbc24a90-d451-41d5-b3b8-c678d8fc2d41",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d474684d-0965-49e9-b0d0-674b2817a2c4",
+            "Value": {
+                "id": "cc8d7dda-b743-476d-a69a-5ba8d8b5ca7d",
+                "resourcePath": "sprites\\spr_office\\spr_office.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

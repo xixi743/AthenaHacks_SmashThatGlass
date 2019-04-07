@@ -1,33 +1,24 @@
-/// @description player movement
+/// @description Player movement
 
-/*
-SPD = 3;
-
-var xadd = keyboard_check(vk_right) - keyboard_check(vk_left);
-var yadd = keyboard_check(vk_down) - keyboard_check(vk_up);
-
-x += xadd * SPD;
-y += yadd * SPD;
-*/
-
-/*right = keyboard_check(vk_right);
-left = keyboard_check(vk_left);
-jump = keyboard_check(vk_up);
-
-if (right) {
-	x+= 4;
+if keyboard_check(vk_right) {
+	hspeed_ = 10;
+} else if keyboard_check(vk_left) {
+	hspeed_ = -10;
+} else {
+	hspeed_ = 0;
 }
-if(left) {
-	x-=4
+
+if (keyboard_check_pressed(vk_up) and y=400) {
+	vspeed_ = -15;
 }
-if(jump) {
-	y-=4
-} */
 
-player_spd = 3;
+if (keyboard_check_released(vk_up) and vspeed_<=0) {
+		vspeed_/=-2;
+		//gravity = .05
+}
 
-var xadd = keyboard_check(vk_right) - keyboard_check(vk_left);
-var yadd = keyboard_check(vk_down) - keyboard_check(vk_up);
+x+=hspeed_;
+y+=vspeed_;
 
-x += xadd * player_spd;
-y += yadd * player_spd;
+y= clamp(y, 0, 400);
+x = clamp(x, 0+sprite_width/2, room_width-sprite_width/2);
