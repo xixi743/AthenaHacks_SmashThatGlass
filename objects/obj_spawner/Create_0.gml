@@ -1,3 +1,2 @@
-/// @description Initialize the spawner
-
-wave = 1;
+spawnRate = 180
+alarm[0] = spawnRate;

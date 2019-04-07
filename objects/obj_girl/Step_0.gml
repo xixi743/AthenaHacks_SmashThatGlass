@@ -12,13 +12,13 @@ if keyboard_check(vk_right) {
 
 if (keyboard_check_pressed(vk_up) and y=1080) {
 	vspeed_ = -15;
+	audio_play_sound(snd_jump, 1, false);
 }
 
 //how to make it so she isn't just up constantly when up is pressed?
 if (keyboard_check_released(vk_up) and vspeed_<=0) {
 		vspeed_/=-2;
 		gravity = .5;
-
 }
 
 x+=hspeed_;
